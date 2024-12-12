@@ -21,3 +21,6 @@ if [ $? -eq 0 ]; then
 else
   echo "文件上传到Git仓库时出错。"
 fi
+
+print("窗口将在5s后关闭...")
+time.sleep(5)#休眠5秒可以看清楚结果
