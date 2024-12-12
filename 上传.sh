@@ -20,7 +20,8 @@ if [ $? -eq 0 ]; then
   echo "文件已成功上传到Git仓库。"
 else
   echo "文件上传到Git仓库时出错。"
+  
+# 等待5秒后关闭脚本
+sleep 5
 fi
 
-print("窗口将在5s后关闭...")
-time.sleep(5)#休眠5秒可以看清楚结果
