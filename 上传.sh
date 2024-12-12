@@ -18,10 +18,8 @@ git push origin main
 # 检查推送是否成功
 if [ $? -eq 0 ]; then
   echo "文件已成功上传到Git仓库。"
+  echo "脚本将在5秒后关闭..."
+  sleep 5
 else
   echo "文件上传到Git仓库时出错。"
-  
-# 等待5秒后关闭脚本
-sleep 5
 fi
-
