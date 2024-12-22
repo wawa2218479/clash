@@ -12,3 +12,6 @@ DOMAIN-KEYWORD,codelife.cc
 
 # 懂车帝
 DOMAIN-KEYWORD,dongchedi
+
+# Nas
+SRC-PORT,54321
